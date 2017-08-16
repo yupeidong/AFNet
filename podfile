@@ -1,0 +1,19 @@
+platform :ios,'8.0'
+target 'XMPP' do
+pod 'ReactiveCocoa', '~>2.5'
+pod 'Masonry'
+pod 'YYModel'
+pod 'AFNetworking'
+pod 'YYText'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+#pod 'MBProgressHUD'
+pod 'FMDB'
+pod 'WMPageController’
+pod 'TTTAttributedLabel'
+pod 'IQKeyboardManager'
+pod 'UMengAnalytics-NO-IDFA'
+end 
+
