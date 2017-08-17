@@ -30,7 +30,6 @@
     
 }
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -72,9 +71,6 @@
     
 }
 
-
-
-
 /**
  *  添加一个子控制器
  *
@@ -88,13 +84,8 @@
     childVC.tabBarItem.title = title;
     childVC.tabBarItem.selectedImage = [UIImage imageNamed:image];
     childVC.tabBarItem.image = [UIImage imageNamed:selectedImage];
-    
     [self addChildViewController:childVC];
 }
-
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
