@@ -22,6 +22,7 @@
     
     self.window = [[UIWindow alloc] init];
     [self.window makeKeyAndVisible];
+    self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[XMTarBarViewController alloc] init];
     return YES;

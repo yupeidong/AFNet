@@ -47,16 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		245350511F3D52EF00B496E1 /* XPHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHttpTool.h; sourceTree = "<group>"; };
-		245350521F3D52EF00B496E1 /* XPHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHttpTool.m; sourceTree = "<group>"; };
-		245350541F3D590500B496E1 /* NSDictionary+Extion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extion.h"; sourceTree = "<group>"; };
-		245350551F3D590500B496E1 /* NSDictionary+Extion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extion.m"; sourceTree = "<group>"; };
+		245350511F3D52EF00B496E1 /* XPHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPHttpTool.h; path = ../../XPHttpTool.h; sourceTree = "<group>"; };
+		245350521F3D52EF00B496E1 /* XPHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPHttpTool.m; path = ../../XPHttpTool.m; sourceTree = "<group>"; };
+		245350541F3D590500B496E1 /* NSDictionary+Extion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extion.h"; path = "../../NSDictionary+Extion.h"; sourceTree = "<group>"; };
+		245350551F3D590500B496E1 /* NSDictionary+Extion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Extion.m"; path = "../../NSDictionary+Extion.m"; sourceTree = "<group>"; };
 		245A16CA1F26E9F200460DCD /* XMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245A16CE1F26E9F200460DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		245A16D01F26E9F200460DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		245A16D11F26E9F200460DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		245A16D31F26E9F200460DCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		245A16D41F26E9F200460DCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		245A16D01F26E9F200460DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		245A16D11F26E9F200460DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		245A16D31F26E9F200460DCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		245A16D41F26E9F200460DCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		245A16D71F26E9F200460DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		245A16D91F26E9F300460DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		245A16DC1F26E9F300460DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,11 +67,11 @@
 		245A16EE1F26E9F300460DCD /* XMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245A16F21F26E9F300460DCD /* XMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPUITests.m; sourceTree = "<group>"; };
 		245A16F41F26E9F300460DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		245A17001F27241D00460DCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		24C523CB1F452ED6006841BC /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
-		24C523CC1F452ED6006841BC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		24C523CE1F452F2F006841BC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
-		24C523CF1F452F42006841BC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		245A17001F27241D00460DCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../../PrefixHeader.pch; sourceTree = "<group>"; };
+		24C523CB1F452ED6006841BC /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "../../UIColor+Extension.m"; sourceTree = "<group>"; };
+		24C523CC1F452ED6006841BC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "../../UIImage+Extension.h"; sourceTree = "<group>"; };
+		24C523CE1F452F2F006841BC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "../../UIColor+Extension.h"; sourceTree = "<group>"; };
+		24C523CF1F452F42006841BC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "../../UIImage+Extension.m"; sourceTree = "<group>"; };
 		24C523D41F454B52006841BC /* XMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBaseViewController.h; sourceTree = "<group>"; };
 		24C523D51F454B52006841BC /* XMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBaseViewController.m; sourceTree = "<group>"; };
 		24C523D71F454B6F006841BC /* XMNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNavViewController.h; sourceTree = "<group>"; };
@@ -143,19 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				24C523D11F454A85006841BC /* Class */,
-				245A17001F27241D00460DCD /* PrefixHeader.pch */,
-				245A16D01F26E9F200460DCD /* AppDelegate.h */,
-				245A16D11F26E9F200460DCD /* AppDelegate.m */,
-				245350511F3D52EF00B496E1 /* XPHttpTool.h */,
-				245350521F3D52EF00B496E1 /* XPHttpTool.m */,
-				245350541F3D590500B496E1 /* NSDictionary+Extion.h */,
-				245350551F3D590500B496E1 /* NSDictionary+Extion.m */,
-				245A16D31F26E9F200460DCD /* ViewController.h */,
-				245A16D41F26E9F200460DCD /* ViewController.m */,
-				24C523CC1F452ED6006841BC /* UIImage+Extension.h */,
-				24C523CF1F452F42006841BC /* UIImage+Extension.m */,
-				24C523CE1F452F2F006841BC /* UIColor+Extension.h */,
-				24C523CB1F452ED6006841BC /* UIColor+Extension.m */,
 				245A16D61F26E9F200460DCD /* Main.storyboard */,
 				245A16D91F26E9F300460DCD /* Assets.xcassets */,
 				245A16DB1F26E9F300460DCD /* LaunchScreen.storyboard */,
@@ -194,6 +181,8 @@
 		24C523D11F454A85006841BC /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				24C523F31F4577EB006841BC /* Other */,
+				24C523F11F457778006841BC /* Http */,
 				24C523E11F454CA2006841BC /* Catergory */,
 				24C523D31F454B26006841BC /* Work */,
 				24C523D21F454AA8006841BC /* Main */,
@@ -264,8 +253,35 @@
 		24C523E11F454CA2006841BC /* Catergory */ = {
 			isa = PBXGroup;
 			children = (
+				245350541F3D590500B496E1 /* NSDictionary+Extion.h */,
+				245350551F3D590500B496E1 /* NSDictionary+Extion.m */,
+				24C523CC1F452ED6006841BC /* UIImage+Extension.h */,
+				24C523CF1F452F42006841BC /* UIImage+Extension.m */,
+				24C523CE1F452F2F006841BC /* UIColor+Extension.h */,
+				24C523CB1F452ED6006841BC /* UIColor+Extension.m */,
 			);
 			path = Catergory;
+			sourceTree = "<group>";
+		};
+		24C523F11F457778006841BC /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				245350511F3D52EF00B496E1 /* XPHttpTool.h */,
+				245350521F3D52EF00B496E1 /* XPHttpTool.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		24C523F31F4577EB006841BC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				245A17001F27241D00460DCD /* PrefixHeader.pch */,
+				245A16D01F26E9F200460DCD /* AppDelegate.h */,
+				245A16D11F26E9F200460DCD /* AppDelegate.m */,
+				245A16D31F26E9F200460DCD /* ViewController.h */,
+				245A16D41F26E9F200460DCD /* ViewController.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		32950D3ACD2C87C304E355E2 /* Pods */ = {
