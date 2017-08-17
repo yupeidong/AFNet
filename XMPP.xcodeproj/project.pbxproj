@@ -17,6 +17,8 @@
 		245A16DD1F26E9F300460DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245A16DB1F26E9F300460DCD /* LaunchScreen.storyboard */; };
 		245A16E81F26E9F300460DCD /* XMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A16E71F26E9F300460DCD /* XMPPTests.m */; };
 		245A16F31F26E9F300460DCD /* XMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A16F21F26E9F300460DCD /* XMPPUITests.m */; };
+		24C523CD1F452ED6006841BC /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523CB1F452ED6006841BC /* UIColor+Extension.m */; };
+		24C523D01F452F42006841BC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523CF1F452F42006841BC /* UIImage+Extension.m */; };
 		E6729844AF2C99FC20BB5DD6 /* libPods-XMPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926AE3ABB19DD533FEAE8E09 /* libPods-XMPP.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,10 @@
 		245A16F21F26E9F300460DCD /* XMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPUITests.m; sourceTree = "<group>"; };
 		245A16F41F26E9F300460DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245A17001F27241D00460DCD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		24C523CB1F452ED6006841BC /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		24C523CC1F452ED6006841BC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		24C523CE1F452F2F006841BC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		24C523CF1F452F42006841BC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		89FC554D0DD8A1245D0E4FAF /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
 		926AE3ABB19DD533FEAE8E09 /* libPods-XMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B1268BB57929756814E8B7 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +130,10 @@
 				245350551F3D590500B496E1 /* NSDictionary+Extion.m */,
 				245A16D31F26E9F200460DCD /* ViewController.h */,
 				245A16D41F26E9F200460DCD /* ViewController.m */,
+				24C523CC1F452ED6006841BC /* UIImage+Extension.h */,
+				24C523CF1F452F42006841BC /* UIImage+Extension.m */,
+				24C523CE1F452F2F006841BC /* UIColor+Extension.h */,
+				24C523CB1F452ED6006841BC /* UIColor+Extension.m */,
 				245A16D61F26E9F200460DCD /* Main.storyboard */,
 				245A16D91F26E9F300460DCD /* Assets.xcassets */,
 				245A16DB1F26E9F300460DCD /* LaunchScreen.storyboard */,
@@ -361,6 +371,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				245350531F3D52EF00B496E1 /* XPHttpTool.m in Sources */,
+				24C523D01F452F42006841BC /* UIImage+Extension.m in Sources */,
+				24C523CD1F452ED6006841BC /* UIColor+Extension.m in Sources */,
 				245A16D51F26E9F200460DCD /* ViewController.m in Sources */,
 				245350561F3D590500B496E1 /* NSDictionary+Extion.m in Sources */,
 				245A16D21F26E9F200460DCD /* AppDelegate.m in Sources */,
