@@ -19,6 +19,13 @@
 		245A16F31F26E9F300460DCD /* XMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A16F21F26E9F300460DCD /* XMPPUITests.m */; };
 		24C523CD1F452ED6006841BC /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523CB1F452ED6006841BC /* UIColor+Extension.m */; };
 		24C523D01F452F42006841BC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523CF1F452F42006841BC /* UIImage+Extension.m */; };
+		24C523D61F454B52006841BC /* XMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523D51F454B52006841BC /* XMBaseViewController.m */; };
+		24C523D91F454B6F006841BC /* XMNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523D81F454B6F006841BC /* XMNavViewController.m */; };
+		24C523DC1F454BCB006841BC /* XMTarBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523DB1F454BCB006841BC /* XMTarBarViewController.m */; };
+		24C523E71F4564FA006841BC /* XMBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523E61F4564FA006841BC /* XMBusinessViewController.m */; };
+		24C523EA1F456556006841BC /* XMActiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523E91F456556006841BC /* XMActiveViewController.m */; };
+		24C523ED1F456562006841BC /* XMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523EC1F456562006841BC /* XMHomeViewController.m */; };
+		24C523F01F456579006841BC /* XMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523EF1F456579006841BC /* XMMineViewController.m */; };
 		E6729844AF2C99FC20BB5DD6 /* libPods-XMPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926AE3ABB19DD533FEAE8E09 /* libPods-XMPP.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +72,20 @@
 		24C523CC1F452ED6006841BC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		24C523CE1F452F2F006841BC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		24C523CF1F452F42006841BC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		24C523D41F454B52006841BC /* XMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBaseViewController.h; sourceTree = "<group>"; };
+		24C523D51F454B52006841BC /* XMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBaseViewController.m; sourceTree = "<group>"; };
+		24C523D71F454B6F006841BC /* XMNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNavViewController.h; sourceTree = "<group>"; };
+		24C523D81F454B6F006841BC /* XMNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNavViewController.m; sourceTree = "<group>"; };
+		24C523DA1F454BCB006841BC /* XMTarBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTarBarViewController.h; sourceTree = "<group>"; };
+		24C523DB1F454BCB006841BC /* XMTarBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTarBarViewController.m; sourceTree = "<group>"; };
+		24C523E51F4564FA006841BC /* XMBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBusinessViewController.h; sourceTree = "<group>"; };
+		24C523E61F4564FA006841BC /* XMBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBusinessViewController.m; sourceTree = "<group>"; };
+		24C523E81F456556006841BC /* XMActiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMActiveViewController.h; sourceTree = "<group>"; };
+		24C523E91F456556006841BC /* XMActiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMActiveViewController.m; sourceTree = "<group>"; };
+		24C523EB1F456562006841BC /* XMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMHomeViewController.h; sourceTree = "<group>"; };
+		24C523EC1F456562006841BC /* XMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMHomeViewController.m; sourceTree = "<group>"; };
+		24C523EE1F456579006841BC /* XMMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMMineViewController.h; sourceTree = "<group>"; };
+		24C523EF1F456579006841BC /* XMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMMineViewController.m; sourceTree = "<group>"; };
 		89FC554D0DD8A1245D0E4FAF /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
 		926AE3ABB19DD533FEAE8E09 /* libPods-XMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B1268BB57929756814E8B7 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +142,7 @@
 		245A16CC1F26E9F200460DCD /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
+				24C523D11F454A85006841BC /* Class */,
 				245A17001F27241D00460DCD /* PrefixHeader.pch */,
 				245A16D01F26E9F200460DCD /* AppDelegate.h */,
 				245A16D11F26E9F200460DCD /* AppDelegate.m */,
@@ -167,6 +189,83 @@
 				245A16F41F26E9F300460DCD /* Info.plist */,
 			);
 			path = XMPPUITests;
+			sourceTree = "<group>";
+		};
+		24C523D11F454A85006841BC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				24C523E11F454CA2006841BC /* Catergory */,
+				24C523D31F454B26006841BC /* Work */,
+				24C523D21F454AA8006841BC /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		24C523D21F454AA8006841BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				24C523D41F454B52006841BC /* XMBaseViewController.h */,
+				24C523D51F454B52006841BC /* XMBaseViewController.m */,
+				24C523D71F454B6F006841BC /* XMNavViewController.h */,
+				24C523D81F454B6F006841BC /* XMNavViewController.m */,
+				24C523DA1F454BCB006841BC /* XMTarBarViewController.h */,
+				24C523DB1F454BCB006841BC /* XMTarBarViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		24C523D31F454B26006841BC /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				24C523DD1F454C35006841BC /* Active */,
+				24C523DE1F454C35006841BC /* Business */,
+				24C523DF1F454C35006841BC /* Home */,
+				24C523E01F454C35006841BC /* MIne */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		24C523DD1F454C35006841BC /* Active */ = {
+			isa = PBXGroup;
+			children = (
+				24C523E81F456556006841BC /* XMActiveViewController.h */,
+				24C523E91F456556006841BC /* XMActiveViewController.m */,
+			);
+			path = Active;
+			sourceTree = "<group>";
+		};
+		24C523DE1F454C35006841BC /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				24C523E51F4564FA006841BC /* XMBusinessViewController.h */,
+				24C523E61F4564FA006841BC /* XMBusinessViewController.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		24C523DF1F454C35006841BC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24C523EB1F456562006841BC /* XMHomeViewController.h */,
+				24C523EC1F456562006841BC /* XMHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		24C523E01F454C35006841BC /* MIne */ = {
+			isa = PBXGroup;
+			children = (
+				24C523EE1F456579006841BC /* XMMineViewController.h */,
+				24C523EF1F456579006841BC /* XMMineViewController.m */,
+			);
+			path = MIne;
+			sourceTree = "<group>";
+		};
+		24C523E11F454CA2006841BC /* Catergory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catergory;
 			sourceTree = "<group>";
 		};
 		32950D3ACD2C87C304E355E2 /* Pods */ = {
@@ -370,9 +469,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C523F01F456579006841BC /* XMMineViewController.m in Sources */,
+				24C523D61F454B52006841BC /* XMBaseViewController.m in Sources */,
 				245350531F3D52EF00B496E1 /* XPHttpTool.m in Sources */,
+				24C523D91F454B6F006841BC /* XMNavViewController.m in Sources */,
+				24C523EA1F456556006841BC /* XMActiveViewController.m in Sources */,
 				24C523D01F452F42006841BC /* UIImage+Extension.m in Sources */,
+				24C523E71F4564FA006841BC /* XMBusinessViewController.m in Sources */,
+				24C523ED1F456562006841BC /* XMHomeViewController.m in Sources */,
 				24C523CD1F452ED6006841BC /* UIColor+Extension.m in Sources */,
+				24C523DC1F454BCB006841BC /* XMTarBarViewController.m in Sources */,
 				245A16D51F26E9F200460DCD /* ViewController.m in Sources */,
 				245350561F3D590500B496E1 /* NSDictionary+Extion.m in Sources */,
 				245A16D21F26E9F200460DCD /* AppDelegate.m in Sources */,

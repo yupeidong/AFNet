@@ -22,8 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
-    
+
     _textField = [[UITextField alloc] init];
     _textField.placeholder = @"请输入账号";
     _textField.layer.cornerRadius = 1;
@@ -66,8 +65,6 @@
         enble = text.length > 0;
         return @(enble);
     }];
-    
-    
 
 
 //冒泡排序
